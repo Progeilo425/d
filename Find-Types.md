@@ -7,7 +7,7 @@ There are 4 main find types you can find within AdvancedChat.
 
 ## Literal
 
-Literal does exactly what it sounds like, it finds a literal match. Here's an example:
+Literal searches for exactly  what the search string is, character-for-character. Here's an example:
 
 **Find String:** `Hello`
 
@@ -17,7 +17,7 @@ Literal does exactly what it sounds like, it finds a literal match. Here's an ex
 
 ## Upper Lower
 
-Upper lower is like literal, but it is case insensitive.
+Upper lower is like literal, but ignores case.
 
 **Find String:** `Hello`
 
@@ -27,11 +27,11 @@ Upper lower is like literal, but it is case insensitive.
 
 ## Regular Expression (RegEx)
 
-RegEx takes in a [Regular Expression](https://en.wikipedia.org/wiki/Regular_expression) and matches based off of that. This allows for a lot of power, but can be confusing to get started. A really good website to help test RegEx is [regex101](https://regex101.com/). To learn RegEx there are many resources online, one recommended is [Fireship's video](https://www.youtube.com/watch?v=sXQxhojSdZM).
+RegEx takes in a [Regular Expression](https://en.wikipedia.org/wiki/Regular_expression) and matches based off of that. While confusing to learn, RegEx is a powerful tool to match complex strings. A really good website to help test RegEx is [regex101](https://regex101.com/). To learn RegEx there are many resources online, one recommended is [Fireship's video](https://www.youtube.com/watch?v=sXQxhojSdZM).
 
 ## Custom
 
-Each module can add a custom filter and add powerful find types. To access them you have to set the find string to their name. Set the find type to custom, and then the find string to their specific name. Different custom find types can have options appended past their name.
+Each module can add a custom filter and add powerful find types. To access them, set the find type to custom, and then the find string to their specific name. Different custom find types can have options appended past their name.
 
 Example:
 
